@@ -8,9 +8,12 @@ import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
+  created(){
+    console.log(process.env)
+  },
   components: {
     HelloWorld
-  }
+  },
 }
 </script>
 
